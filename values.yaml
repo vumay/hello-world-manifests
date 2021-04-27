@@ -7,7 +7,7 @@ appName: demo
 replicaCount: 5
 
 image:
-  name: atoy3731/hello-world
+  name: dockercloud/hello-world
   tag: "PFsoCwm"
   pullPolicy: IfNotPresent
 
@@ -52,7 +52,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: app.demo.atoy.dev
+    - host: apps-vumay.ddns.net
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
