@@ -8,7 +8,6 @@ replicaCount: 5
 
 image:
   name: dockercloud/hello-world
-  tag: "PFsoCwm"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
