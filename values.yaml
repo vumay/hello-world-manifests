@@ -7,7 +7,7 @@ appName: demo-app
 replicaCount: 1
 
 image:
-  name: dockercloud/hello-world:latest
+  name: "dockercloud/hello-world:latest"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
